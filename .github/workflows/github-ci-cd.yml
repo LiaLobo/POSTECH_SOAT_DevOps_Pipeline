@@ -39,7 +39,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          # java-package: '*.jar'
+          java-package: '*.jar'
 
       - name: Publish package
         run: mvn --batch-mode deploy
