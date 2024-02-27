@@ -7,9 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run tests
-        run: mvn --batch-mode test
-        with:
-          fail-on-error: true
+        run: mvn --batch-mode -Dmaven.test.failure.ignore=false test
 
   build:
     runs-on: ubuntu-latest
