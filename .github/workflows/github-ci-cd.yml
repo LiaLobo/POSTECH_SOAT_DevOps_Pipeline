@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run tests
-        run: mvn --batch-mode -Dmaven.test.failure.ignore=false test --file pom.xml
+        run: mvn -B test --file pom.xml
 
   build:
     runs-on: ubuntu-latest
