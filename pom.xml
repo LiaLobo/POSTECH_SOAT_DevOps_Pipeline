@@ -61,15 +61,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
-			<plugin>
-			 	<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-deploy-plugin</artifactId>
-				<version>3.0.0</version>
-				<configuration>
-					<url>https://github.com/LiaLobo/POSTECH_SOAT_DevOps_Pipeline</url>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
